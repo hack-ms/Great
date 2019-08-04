@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Merienda');
+#banner {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-color: #96281b;
+  color: white;
+  padding: 30px 0px 30px 0px;
+}
+
+#logo {
+  width: 120px;
+  padding-bottom: 10px;
+}
+
+#conteudo {
+  padding: 20px 0px 20px 0px;
+}
+
+#rodape {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: 'Merienda', cursive;
+  font-size: 80%;
+}
+
+#imgRodape {
+  width: 20px;
+}
+
+.thumbailProduto {
+  width: 100%;
+}
+
+.cardProduto {
+  margin-bottom: 10px;
+  box-shadow: 5px 5px #e2e0e0;
+}
+
+.cardProduto:hover {
+  width: 101%;
+  font-size: 110%;
+  box-shadow: 7px 7px #db9d9d;
+}
+
+.campoConsulta {
+  text-align: center
+}
+
+.campoConsulta::placeholder {
+  color: #a9a5a5;
+}
+
+@media only screen and (max-width: 768px) {
+  .cardProduto {
+    margin: 0px 10px 10px 10px;
+  }
+}
